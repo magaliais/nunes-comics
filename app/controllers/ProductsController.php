@@ -6,7 +6,7 @@ use App\Core\App;
 use Exception;
 
 class ProductsController extends LoginController {
-    public function addProduct() {
+    public function createProduct() {
         session_start();
         $this->sessionVerify();
 

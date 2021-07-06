@@ -50,7 +50,7 @@
               <th scope="row"><?= $category->id ?></th>
               <td><?= $category->nome ?></td>
               <td class="d-flex justify-content-end flex-wrap">
-                <form action="/admin/categories/view" method="POST" class="mb-1">
+                <form action="/admin/categories/details" method="POST" class="mb-1">
                   <input type="hidden" name="id" value="<?= $category->id ?>">
                   <button type="submit" >Visualizar</button>
                 </form>

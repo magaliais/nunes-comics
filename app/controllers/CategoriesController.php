@@ -7,7 +7,7 @@ use Exception;
 
 class CategoriesController extends LoginController
 {
-    public function addCategory()
+    public function createCategory()
     {
         session_start();
         $this->sessionVerify();
