@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Core\App;
 use Exception;
 
-class PagesController {
+class PagesController extends LoginController {
   public function home() {
     $products = App::get('database')->selectAll('produtos');
     $view_page = $_SERVER['REQUEST_URI'];
@@ -89,8 +89,9 @@ class PagesController {
     return view('admin/admin-list-products');
   }
 
-  // talvez não precise
-  public function homeAdm(){
+  public function homeAdm() {
+    session_start();
+    $this->sessionVerify();
     return view('admin/home-adm');
   }
 
