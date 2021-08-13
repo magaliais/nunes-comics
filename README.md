@@ -1,4 +1,27 @@
-# Nunes' Comics
+<h1 align="center">
+  <img src="./public/assets/logo.png" style="width: 150px">
+</h1>
+
+<h2 align="center">
+    <img src="./public/img/preview/items-desktop.png" alt="preview">
+</h2>
+
+---
+
+<h2>📋 Índice</h2>
+
+
+<ul>
+    <li><a href="#about">📖 Sobre</a></li>
+    <li><a href="#repository">👨‍🏫 Uso do repositório</a></li>
+    <li><a href="#run">🏭 Rodando o servidor</a></li>
+    <!-- <li><a href="#preview">🔍 Preview</a></li> -->
+</ul>
+
+
+---
+
+<h2 id="about">📖 Nunes' Comics</h2>
 
 Projeto desenvolvido para o Trainee da [Code Jr](https://codejr.com.br/). Consiste em uma loja de quadrinhos.
 - Desenvolvimento:
@@ -6,7 +29,7 @@ Projeto desenvolvido para o Trainee da [Code Jr](https://codejr.com.br/). Consis
   - Back-end: PHP e SQL
 
 
-## Projeto Trainee, Code Jr, Grupo 2, 2021.1
+### Projeto Trainee, Code Jr, Grupo 2, 2021.1
 
 Desenvolvedores:
 - Gabriel Frasson
@@ -20,8 +43,9 @@ Scrum Master:
 
 - [Renan Nunes](https://renannun.github.io/)
 
+---
 
-## Tutorial de uso do repositório
+<h2 id="repository">👨‍🏫 Tutorial de uso do repositório</h2>
 
 ### Primeira utilização
 
@@ -55,3 +79,13 @@ Scrum Master:
 - Vá para a main: `git checkout main`
 - Atualize a main: `git pull`
 - Faça o merge das alterações de sua branch com a main: `git merge suabranch`
+
+---
+
+<h2 id="run">🏭 Rodando o servidor</h3>
+
+- Para visualizar o projeto, utilizar o comando `php -S localhost:8080` no terminal (é necessário possuir XAMPP ativado)
+
+---
+
+<!-- <h2 id="preview">🔍 Preview</h2> -->
